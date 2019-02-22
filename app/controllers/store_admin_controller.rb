@@ -7,4 +7,7 @@ class StoreAdminController < ApplicationController
   def order
     render :order_administration => "orders"
   end
+
+  def invoice
+  end
 end
