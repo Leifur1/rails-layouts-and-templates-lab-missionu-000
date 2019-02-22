@@ -3,8 +3,9 @@ class StoreAdminController < ApplicationController
   def list
     render :store_admin => "home"
   end
-  layout "order_administration"
+
   def order
+    layout "order_administration"
     render :order_administration => "orders"
   end
 
