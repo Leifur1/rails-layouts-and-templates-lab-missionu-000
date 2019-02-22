@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
-  def home
+  def list
     render :static => "home"
   end
 end
