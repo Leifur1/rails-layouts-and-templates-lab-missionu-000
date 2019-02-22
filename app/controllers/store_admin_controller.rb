@@ -1,5 +1,5 @@
 class StoreAdminController < ApplicationController
   def list
-    render :store_admin => "home"
+    render :admin => "home"
   end
 end
