@@ -2,7 +2,6 @@ class StoreAdminController < ApplicationController
 
   def list
     render :layout => "admin"
-    render :store_admin => "home"
   end
 
   def order
