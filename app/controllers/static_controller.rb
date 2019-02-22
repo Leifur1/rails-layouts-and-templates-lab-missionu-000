@@ -1,4 +1,4 @@
   class StaticController < ApplicationController
 ApplicationController
-    static => "new"
+    static => "home"
   end
