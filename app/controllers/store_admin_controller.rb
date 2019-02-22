@@ -11,6 +11,7 @@ class StoreAdminController < ApplicationController
   end
 
   def invoice
+    layout = false
     render :store_admin => "invoice"
   end
 end
