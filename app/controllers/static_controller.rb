@@ -1,5 +1,6 @@
 class StaticController < ApplicationController
+ApplicationController
   def new
-    render :new => "static"
+    render :static => "static"
   end
 end
