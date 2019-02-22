@@ -9,5 +9,6 @@ class StoreAdminController < ApplicationController
   end
 
   def invoice
+    render :store_admin => "invoice"
   end
 end
