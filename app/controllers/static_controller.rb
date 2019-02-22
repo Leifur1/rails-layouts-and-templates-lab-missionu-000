@@ -1,4 +1,4 @@
-  class StaticController < ApplicationController
-ApplicationController
-    static => "home"
+class StaticController < ApplicationController
+  def home
   end
+end
