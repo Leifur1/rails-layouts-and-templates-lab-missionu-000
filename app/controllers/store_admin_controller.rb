@@ -1,7 +1,7 @@
 class StoreAdminController < ApplicationController
 
   def list
-    render :layout => "admin" => "home"
+    render :layout => "admin/home"
   end
 
   def order
