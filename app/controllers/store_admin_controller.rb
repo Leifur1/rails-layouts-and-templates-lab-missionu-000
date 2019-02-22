@@ -1,5 +1,3 @@
 class StoreAdminController < ApplicationController
-  def list
-    store_admin "home"
-  end
+  store_admin "home"
 end
